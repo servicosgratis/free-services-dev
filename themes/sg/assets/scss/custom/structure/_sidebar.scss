@@ -73,6 +73,7 @@
             border-bottom: 1px solid var(--sidebar-border-color);
             display: flex;
             align-items: center;
+            text-align: center;
             height: 72px;
             > a {
                 text-transform: uppercase;
@@ -84,6 +85,9 @@
                 }
                 svg {
                     height: 26px;
+                }
+                img {
+                    width: 200px;
                 }
             }
             #close-sidebar {
