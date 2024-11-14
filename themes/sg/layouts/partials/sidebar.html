@@ -5,10 +5,10 @@
             <img id="sidebar-logo" class="sidebar-logo" 
                  src="{{ if eq .Site.Language.Lang "en" }}{{ "/images/logos/FS_color.svg" | relURL }}{{ else }}{{ "/images/logos/SG_color.svg" | relURL }}{{ end }}" 
                  alt="Logo"
-                 data-logo-en-color="{{ "/images/logos/FS_color.svg" | relURL }}"
-                 data-logo-en-white="{{ "/images/logos/FS_white.svg" | relURL }}"
-                 data-logo-pt-color="{{ "/images/logos/SG_color.svg" | relURL }}"
-                 data-logo-pt-white="{{ "/images/logos/SG_white.svg" | relURL }}">
+                              data-logo-en-color="{{ "/images/logos/FS_color.svg" | relURL }}"
+             data-logo-en-white="{{ "/images/logos/FS_white.svg" | relURL }}"
+             data-logo-pt-color="{{ "/images/logos/SG_color.svg" | relURL }}"
+             data-logo-pt-white="{{ "/images/logos/SG_white.svg" | relURL }}">
         </a>
     </div>
     <div class="sidebar-content" style="height: calc(100% - 131px);">
@@ -28,7 +28,8 @@
                     </li>
                 {{ end }}
             {{ end }}
-                        
+
+
             {{ $section := $currentPage.Section -}}
             {{ range .Site.Sections.ByWeight }}
                 {{ $child_pages := union .Sections .Pages }}
@@ -110,14 +111,16 @@
                         </li>
                     {{ else }}
                         {{ $active := in $currentPage.RelPermalink .RelPermalink }}
-                        <li class="{{ if $active }}current{{ end }}">
-                            <a class="sidebar-root-link" href="{{ .Permalink }}">
-                                {{ if eq .Site.Params.docs.sidebarIcons true -}}
-                                    <i class="material-icons me-2">{{ .Params.icon }}</i>
-                                {{ end }}
-                                {{ .Title }}
-                            </a>
-                        </li>
+                            {{ if not (or (strings.Contains .RelPermalink "/pt/") (strings.Contains .RelPermalink "/es/") ) }}
+                            <li class="{{ if $active }}current{{ end }}">
+                                <a class="sidebar-root-link" href="{{ .Permalink }}">
+                                    {{ if eq .Site.Params.docs.sidebarIcons true -}}
+                                        <i class="material-icons me-2">{{ .Params.icon }}</i> {{ .RelPermalink }}
+                                    {{ end }}
+                                    {{ .Title }}
+                                </a>
+                            </li>
+                        {{ end }}
                     {{ end }}
                 {{ end }}
             {{ end }}

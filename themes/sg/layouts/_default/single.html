@@ -1,9 +1,30 @@
 {{ define "main" }}
-    <!-- override Prism's default copy messages to 'empty'. Required by CSS styling.
-         see: https://prismjs.com/plugins/copy-to-clipboard/#styling -->
+    
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
-        {{ .Content }}
+    {{ $dataFile := .File.TranslationBaseName }}
+    {{ with .Site.Data }}
+        {{ $content := index . $dataFile }}
+        {{ if $content }}
+            {{ range $content.items }}
+                {{ $markdown := "" }}
+                {{ $markdown = printf "%s\n## %s" $markdown .title }}
+                {{ range .sections }}
+                    {{ $lang := $.Site.Language.Lang }}
+                    {{ $description := index . $lang | default .description }}
+                    {{ $markdown = printf "%s\n* [%s](%s) — %s" $markdown .title .url $description }}
+                {{ end }}
+                {{ $markdown | markdownify }}
+            {{ end }}
+        {{ end }}
+    {{ end }}
+    {{ .Content }}
     </div>
+
+
+    
+
+
+
 
     {{ if and .GitInfo .Site.Params.docs.repoURL -}}
         {{ partial "gitinfo" . }}

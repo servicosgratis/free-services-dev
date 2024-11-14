@@ -30,11 +30,18 @@
                                         </div>
                                     {{ end }}
                                     <div class="row flex-xl-nowrap">
-
                                         {{ if site.Params.docs.toc | default true }}
-                                        <div class="docs-toc col-xl-3 {{ if .IsNode }}visually-hidden{{ else }}{{end}} {{ if and (ne .Params.toc false) (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") }}{{ else }}visually-hidden{{ end }} {{ if site.Params.docs.toc | default true }}{{ else }}visually-hidden{{ end }} d-xl-block">
-                                            {{- partial "toc.html" . -}}
-                                        </div>
+                                            {{ $dataExists := "" }}
+                                            {{ with .File }}
+                                                {{ $dataExists = index $.Site.Data .TranslationBaseName }}
+                                            {{ end }}
+                                            <div class="docs-toc col-xl-3 
+                                                {{ if .IsNode }}visually-hidden{{ else }}{{ end }}
+                                                {{ if or (and (ne .Params.toc false) (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>")) (not (eq $dataExists nil)) }}{{ else }}visually-hidden{{ end }}
+                                                {{ if site.Params.docs.toc | default true }}{{ else }}visually-hidden{{ end }} 
+                                                d-xl-block">
+                                                {{- partial "toc.html" . -}}
+                                            </div>
                                         {{ end }}
                                         {{ if site.Params.docs.tocMobile | default true }}
                                         <div class="docs-toc-mobile {{ if .IsNode }}visually-hidden{{ else }}{{end}} {{ if and (ne .Params.toc false) (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") }}{{ else }}visually-hidden{{ end }} {{ if site.Params.docs.tocMobile | default true }}{{ else }}visually-hidden{{ end }} d-print-none d-xl-none">
@@ -44,7 +51,7 @@
                                             {{- partial "toc-mobile.html" . -}}
                                         </div>
                                         {{ end -}}
-                                        <div class="docs-content col-12 {{ if .IsNode }}{{ else }}{{ if site.Params.docs.toc | default true }}{{ if and (ne .Params.toc false) (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") }}col-xl-9{{else}}{{end}}{{ else }}{{ end }}{{ end }} mt-0">
+                                        <div class="docs-content col-12 {{ if .IsNode }}{{ else }}{{ if site.Params.docs.toc | default true }}{{ $dataExists := index .Site.Data .File.TranslationBaseName }}{{ if or (and (ne .Params.toc false) (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>")) $dataExists }}col-xl-9{{else}}{{end}}{{ else }}{{ end }}{{ end }} mt-0">
                                             <div class="mb-0 d-flex">
                                                 {{ if site.Params.docs.titleIcon | default false }}
                                                 <i class="material-icons title-icon me-2">{{- .Params.icon | default "article" }}</i>

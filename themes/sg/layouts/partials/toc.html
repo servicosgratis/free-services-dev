@@ -1,8 +1,27 @@
 <toc>
     <div class="fw-bold text-uppercase mb-2">On this page</div>
+    {{ with .File }}
+        {{ $dataFile := .TranslationBaseName }}
+        {{ with (index $.Site.Data $dataFile) }}
+            <nav id="toc">
+                <ul>
+                    <li>
+                        <ul>
+                            {{ range .items }}
+                            <li>
+                                <a href="#{{ .title | urlize }}">{{ .title }}</a>
+                            </li>
+                            {{ end }}
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        {{ end }}
+    {{ end }}
+
     {{ if eq .Site.Params.docs.scrollSpy true -}}
         {{ .TableOfContents | replaceRE "<nav id=\"TableOfContents\">" "<nav id=\"toc\">" | safeHTML }}
     {{ else -}}
         {{ .TableOfContents }}
-    {{ end -}}
+    {{ end }}
 </toc>
