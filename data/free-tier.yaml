@@ -1,3 +1,4 @@
+items:
   - title: "Source Code Repos"
     sections:
       - title: "Bitbucket"
@@ -77,7 +78,6 @@
         description: "Collaborative development management system for non-GNU free software projects."
         pt: "Sistema de gerenciamento colaborativo de desenvolvimento para projetos de software livre não-GNU."
 
-items:
   - title: "Cloud management solutions"
     sections:
       - title: "Brainboard"
