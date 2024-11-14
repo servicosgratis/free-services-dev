@@ -21,7 +21,7 @@
     <!-- Usuário está no idioma inglês -->
     {{ if strings.HasPrefix .Site.BaseURL $ptDomain }}
         <script>
-            window.location.href = "{{ $enDomain }}{{ $currentPath | replaceRE "^/pt" "" }}";
+            window.location.href = "{{ $enDomain }}{{ $currentPath | replaceRE "^/pt/" "/" }}";
         </script>
     {{ end }}
 {{ end }}
@@ -31,7 +31,7 @@
     {{ $translations = $translations | append .Lang }}
     <li>
         <a class="dropdown-item" 
-           href="{{ if eq .Lang "pt" }}{{ $ptDomain }}/pt{{ $currentPath }}{{ else }}{{ $enDomain }}{{ $currentPath | replaceRE "^/pt" "" }}{{ end }}" 
+           href="{{ if eq .Lang "pt" }}{{ $ptDomain }}/pt{{ $currentPath }}{{ else }}{{ $enDomain }}{{ $currentPath | replaceRE "^/pt/" "/" }}{{ end }}" 
            role="button" rel="alternate" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .Language.LanguageName }}
         </a>
     </li>
@@ -43,7 +43,7 @@
         {{ if not (in $translations .Lang) }}
             <li>
                 <a class="dropdown-item" 
-                   href="{{ if eq .Lang "pt" }}{{ $ptDomain }}/pt{{ $currentPath }}{{ else }}{{ $enDomain }}{{ $currentPath | replaceRE "^/pt" "" }}{{ end }}" 
+                   href="{{ if eq .Lang "pt" }}{{ $ptDomain }}/pt{{ $currentPath }}{{ else }}{{ $enDomain }}{{ $currentPath | replaceRE "^/pt/" "/" }}{{ end }}" 
                    role="button" rel="alternate" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .LanguageName }}
                 </a>
             </li>
