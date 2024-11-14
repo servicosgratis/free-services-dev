@@ -2,42 +2,51 @@
 {{ $translations := slice }}
 {{ $docspath := $.Scratch.Get "pathName" }}
 
-<!-- Verifica o domínio atual -->
-{{ $currentDomain := .Site.BaseURL }}
+<!-- Definindo os domínios -->
 {{ $ptDomain := "https://servicosgratis.com.br" }}
 {{ $enDomain := "https://freeservices.dev" }}
 
-<!-- Lógica para redirecionamento com base no idioma e domínio -->
+<!-- Captura o caminho relativo da página atual sem o domínio -->
+{{ $currentPath := .RelPermalink }}
+
+<!-- Lógica de redirecionamento baseada no idioma e domínio -->
 {{ if eq $pageLang "pt" }}
-    <!-- Usuário está em português -->
-    {{ if eq $currentDomain $enDomain }}
-        <!-- Redireciona para o domínio em português -->
+    <!-- Usuário está no idioma português -->
+    {{ if strings.HasPrefix .Site.BaseURL $enDomain }}
         <script>
-            window.location.href = "{{ $ptDomain }}/pt";
+            window.location.href = "{{ $ptDomain }}/pt{{ $currentPath }}";
         </script>
     {{ end }}
 {{ else if eq $pageLang "en" }}
-    <!-- Usuário está em inglês -->
-    {{ if eq $currentDomain $ptDomain }}
-        <!-- Redireciona para o domínio em inglês -->
+    <!-- Usuário está no idioma inglês -->
+    {{ if strings.HasPrefix .Site.BaseURL $ptDomain }}
         <script>
-            window.location.href = "{{ $enDomain }}";
+            window.location.href = "{{ $enDomain }}{{ $currentPath | replaceRE "^/pt" "" }}";
         </script>
     {{ end }}
 {{ end }}
 
-<!-- List available translations (excluding current page)-->
+<!-- Links de tradução, preservando o caminho -->
 {{ range .Translations }}
     {{ $translations = $translations | append .Lang }}
-    <li><a class="dropdown-item" href="{{ if eq .Lang "pt" }}{{ $ptDomain }}/pt{{ else }}{{ $enDomain }}{{ end }}" role="button" rel="alternate" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .Language.LanguageName }}</a></li>
+    <li>
+        <a class="dropdown-item" 
+           href="{{ if eq .Lang "pt" }}{{ $ptDomain }}/pt{{ $currentPath }}{{ else }}{{ $enDomain }}{{ $currentPath | replaceRE "^/pt" "" }}{{ end }}" 
+           role="button" rel="alternate" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .Language.LanguageName }}
+        </a>
+    </li>
 {{ end }}
 
-<!-- List of configured languages without a translation for the current page (link to doc root) -->
+<!-- Lista de idiomas configurados sem tradução, preservando o caminho -->
 {{ range .Site.Languages }}
     {{ if ne $pageLang .Lang }}
         {{ if not (in $translations .Lang) }}
-            <li><a class="dropdown-item" href="{{ if eq .Lang "pt" }}{{ $ptDomain }}/pt{{ else }}{{ $enDomain }}{{ end }}" role="button" rel="alternate" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .LanguageName }}</a></li>
+            <li>
+                <a class="dropdown-item" 
+                   href="{{ if eq .Lang "pt" }}{{ $ptDomain }}/pt{{ $currentPath }}{{ else }}{{ $enDomain }}{{ $currentPath | replaceRE "^/pt" "" }}{{ end }}" 
+                   role="button" rel="alternate" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .LanguageName }}
+                </a>
+            </li>
         {{ end }}
     {{ end }}
 {{ end }}
-
