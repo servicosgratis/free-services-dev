@@ -2,20 +2,42 @@
 {{ $translations := slice }}
 {{ $docspath := $.Scratch.Get "pathName" }}
 
+<!-- Verifica o domínio atual -->
+{{ $currentDomain := .Site.BaseURL }}
+{{ $ptDomain := "https://servicosgratis.com.br" }}
+{{ $enDomain := "https://freeservices.dev" }}
+
+<!-- Lógica para redirecionamento com base no idioma e domínio -->
+{{ if eq $pageLang "pt" }}
+    <!-- Usuário está em português -->
+    {{ if eq $currentDomain $enDomain }}
+        <!-- Redireciona para o domínio em português -->
+        <script>
+            window.location.href = "{{ $ptDomain }}/pt";
+        </script>
+    {{ end }}
+{{ else if eq $pageLang "en" }}
+    <!-- Usuário está em inglês -->
+    {{ if eq $currentDomain $ptDomain }}
+        <!-- Redireciona para o domínio em inglês -->
+        <script>
+            window.location.href = "{{ $enDomain }}";
+        </script>
+    {{ end }}
+{{ end }}
+
 <!-- List available translations (excluding current page)-->
 {{ range .Translations }}
-    <!-- Create 'available translations' slice -->
     {{ $translations = $translations | append .Lang }}
-    <li><a class="dropdown-item" href="{{ .RelPermalink }}" role="button" rel="alternate" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .Language.LanguageName }}</a></li>
+    <li><a class="dropdown-item" href="{{ if eq .Lang "pt" }}{{ $ptDomain }}/pt{{ else }}{{ $enDomain }}{{ end }}" role="button" rel="alternate" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .Language.LanguageName }}</a></li>
 {{ end }}
 
 <!-- List of configured languages without a translation for the current page (link to doc root) -->
 {{ range .Site.Languages }}
     {{ if ne $pageLang .Lang }}
-        <!-- If .Lang is in the 'available translations' slice, ignore it -->
-        {{ if in $translations .Lang }}
-        {{ else }}
-            <li><a class="dropdown-item" href="{{ .Lang | relURL }}/{{ $docspath }}" role="button" rel="alternate" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .LanguageName }}</a></li>
+        {{ if not (in $translations .Lang) }}
+            <li><a class="dropdown-item" href="{{ if eq .Lang "pt" }}{{ $ptDomain }}/pt{{ else }}{{ $enDomain }}{{ end }}" role="button" rel="alternate" hreflang="{{ .Lang }}" lang="{{ .Lang }}">{{ .LanguageName }}</a></li>
         {{ end }}
     {{ end }}
 {{ end }}
+
