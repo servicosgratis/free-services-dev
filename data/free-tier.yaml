@@ -2077,4 +2077,4 @@ items:
       - title: "Nile"
         url: "https://www.thenile.dev/"
         description: "A Postgres platform for B2B apps. Unlimited databases, Always available with no shutdown, 1GB of storage (total), 50 million query tokens, autoscaling, unlimited vector embeddings."
-        pt: "Uma plataforma Postgres para aplicativos B2B. Bancos de dados ilimitados, sempre disponível sem desligamento, 1GB de armazenamento (total), 50 milhões de tokens de
+        pt: "Uma plataforma Postgres para aplicativos B2B. Bancos de dados ilimitados, sempre disponível sem desligamento, 1GB de armazenamento (total), 50 milhões de tokens de consulta, escalonamento automático, embeddings vetoriais ilimitados."
