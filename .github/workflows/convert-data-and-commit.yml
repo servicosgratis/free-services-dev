@@ -1,0 +1,33 @@
+name: Convert YAML to Markdown
+
+on:
+  push:
+    paths:
+      - 'data/*.yaml'
+
+jobs:
+  convert-and-commit:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.9
+
+    - name: Install dependencies
+      run: pip install pyyaml
+
+    - name: Run YAML to Markdown conversion
+      run: python convert_yaml_to_md.py
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "github-actions[bot]@users.noreply.github.com"
+        git add *.md
+        git commit -m "Update Markdown files from YAML"
+        git push
