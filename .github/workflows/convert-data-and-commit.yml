@@ -4,6 +4,10 @@ on:
   push:
     paths:
       - 'data/*.yaml'
+    branches: ["main"]
+    tags-ignore:
+      - no-action
+  workflow_dispatch:
 
 jobs:
   convert-and-commit:
@@ -25,9 +29,12 @@ jobs:
       run: python convert_yaml_to_md.py
 
     - name: Commit and push changes
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         git config --global user.name "github-actions[bot]"
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add *.md
         git commit -m "Update Markdown files from YAML"
-        git push
+        git tag no-action
+        git push origin HEAD --tags
