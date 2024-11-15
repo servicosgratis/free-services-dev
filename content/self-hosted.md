@@ -1,11 +1,11 @@
 ---
+weight: 200
 title: "Self Hosted"
-description: ""
-icon: "code"
-date: "2023-05-22T00:44:31+01:00"
-lastmod: "2023-05-22T00:44:31+01:00"
+description: "Coming soon ..."
+icon: "host"
 draft: false
 toc: true
-weight: 200
+date: "2024-11-15T08:00:00+03:00"
+lastmod: "2024-11-15T08:00:00+03:00"
 ---
 

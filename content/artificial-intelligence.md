@@ -1,8 +1,8 @@
 ---
 weight: 300
-title: "SysAdmin"
+title: "Artificial Intelligence (AI)"
 description: "Coming soon ..."
-icon: "admin_panel_settings"
+icon: "network_intelligence"
 draft: false
 toc: true
 date: "2024-11-15T08:00:00+03:00"
