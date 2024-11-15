@@ -2,23 +2,19 @@
 {{ $translations := slice }}
 {{ $docspath := $.Scratch.Get "pathName" }}
 
-<!-- Definindo os domínios -->
-{{ $ptDomain := "https://servicosgratis.com.br" }}
-{{ $enDomain := "https://freeservices.dev" }}
+{{ $isDev := or (in .Site.BaseURL "localhost") (in .Site.BaseURL "127.0.0.1") }}
+{{ $ptDomain := cond $isDev "http://localhost:1313" "https://servicosgratis.com.br" }}
+{{ $enDomain := cond $isDev "http://127.0.0.1:1313" "https://freeservices.dev" }}
 
-<!-- Captura o caminho relativo da página atual sem o domínio -->
 {{ $currentPath := .RelPermalink }}
 
-<!-- Lógica de redirecionamento baseada no idioma e domínio -->
 {{ if eq $pageLang "pt" }}
-    <!-- Usuário está no idioma português -->
     {{ if strings.HasPrefix .Site.BaseURL $enDomain }}
         <script>
             window.location.href = "{{ $ptDomain }}/pt{{ $currentPath }}";
         </script>
     {{ end }}
 {{ else if eq $pageLang "en" }}
-    <!-- Usuário está no idioma inglês -->
     {{ if strings.HasPrefix .Site.BaseURL $ptDomain }}
         <script>
             window.location.href = "{{ $enDomain }}{{ $currentPath | replaceRE "^/pt/" "/" }}";
@@ -26,7 +22,6 @@
     {{ end }}
 {{ end }}
 
-<!-- Links de tradução, preservando o caminho -->
 {{ range .Translations }}
     {{ $translations = $translations | append .Lang }}
     <li>
@@ -37,7 +32,6 @@
     </li>
 {{ end }}
 
-<!-- Lista de idiomas configurados sem tradução, preservando o caminho -->
 {{ range .Site.Languages }}
     {{ if ne $pageLang .Lang }}
         {{ if not (in $translations .Lang) }}

@@ -20,12 +20,6 @@
     {{ .Content }}
     </div>
 
-
-    
-
-
-
-
     {{ if and .GitInfo .Site.Params.docs.repoURL -}}
         {{ partial "gitinfo" . }}
     {{ end -}}
