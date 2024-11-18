@@ -1,5 +1,6 @@
 # Serviços Grátis
 
+## [Artificial Intelligence (AI)](artificial-intelligence_pt-BR.md)
 ## [Free-Tier](free-tier_pt-BR.md)
 
 # Sobre Serviços Grátis
@@ -12,10 +13,55 @@ Este projeto tem como objetivo facilitar o acesso a ferramentas gratuitas para d
 A comunidade de desenvolvedores é incentivada a contribuir para expandir e manter o catálogo atualizado. Se você conhece um serviço ou ferramenta gratuita que não está listado, sinta-se à vontade para abrir uma pull request ou issue.
 
 ## Como Contribuir
-- **Adicione serviços**: Siga as diretrizes de contribuição e descreva o serviço, tipo de oferta gratuita e o link oficial.
-- **Melhore descrições**: Sugira melhorias na descrição dos serviços para que outros desenvolvedores possam entender rapidamente a utilidade de cada item.
-- **Reporte serviços depreciados**: Ajude a manter o catálogo relevante enviando atualizações para remover serviços depreciados ou corrigir links quebrados.
-- **Traduções**: Estamos construindo uma base em português e inglês, com a intenção de expandir para múltiplos idiomas no futuro. A ajuda com traduções será bem-vinda!
+### 1. Fazendo um Pull Request
+
+A forma mais comum de contribuir é através de um **Pull Request (PR)**. Se você deseja adicionar ou atualizar informações, basta seguir estas etapas:
+
+- Acesse o repositório no [GitHub](https://github.com/servicosgratis/free-services-dev).
+- Faça um fork do repositório.
+- Navegue até o arquivo YAML da página que deseja atualizar dentro da pasta **`data`**. Por exemplo:
+  - **artificial-intelligence.yaml** para serviços de IA
+  - **free-tier.yaml** para serviços no formato free-tier
+  - **self-hosted.yaml** para serviços auto-hospedados
+  - **sysadmin.yaml** para serviços de administração de sistemas
+- Edite o arquivo YAML para adicionar ou corrigir o título, descrição, URL ou qualquer outra informação necessária.
+- Faça um Pull Request com suas alterações e aguarde a revisão.
+
+#### Estrutura da pasta data/:
+```
+data/
+├── artificial-intelligence.yaml
+├── free-tier.yaml
+├── self-hosted.yaml
+├── sysadmin.yaml
+```
+
+#### Exemplo de Estrutura YAML:
+Cada arquivo YAML segue a seguinte estrutura:
+
+```yaml
+- title: "Título da categoria"
+  sections:
+    - title: "Título do serviço"
+      url: "URL do site"
+      description: "Descrição em inglês"
+      pt: "Descrição em português"
+```
+
+### 2. Abrindo uma Issue
+
+Se você encontrou um link quebrado ou não sabe exatamente como fazer a alteração, você pode abrir uma **Issue** no GitHub. Ao abrir uma issue, forneça o máximo de detalhes possível, como:
+
+- O serviço ou página afetada.
+- O link quebrado ou a informação incorreta.
+- Sugestões para correções ou melhorias.
+
+Para abrir uma issue, siga estas etapas:
+
+- Acesse a página de **Issues** do repositório no [GitHub](https://github.com/servicosgratis/free-services-dev/issues).
+- Clique em **New Issue**.
+- Descreva o problema ou a melhoria que você deseja sugerir.
+
 
 ## Websites
 - [LetsCloud](https://letscloud.io) - Servidores de Cloud feito para desenvolvedores
