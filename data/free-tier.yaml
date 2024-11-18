@@ -310,167 +310,134 @@ items:
         url: "https://beanstalkapp.com/"
         description: "Complete workflow to write, review, and deploy code. Free for one user and one repository with 100 MB of storage."
         pt: "Fluxo de trabalho completo para escrever, revisar e implantar código. Gratuito para um usuário e um repositório com 100 MB de armazenamento."
-
       - title: "Browserling"
         url: "https://www.browserling.com/"
         description: "Live interactive cross-browser testing. Free sessions up to 3 minutes with MS IE 9 under Vista."
         pt: "Teste interativo ao vivo em diferentes navegadores. Sessões gratuitas de até 3 minutos com MS IE 9 no Vista."
-
       - title: "Codacy"
         url: "https://www.codacy.com/"
         description: "Automated code reviews for multiple programming languages. Free for unlimited public and private repositories."
         pt: "Revisões automatizadas de código para várias linguagens de programação. Gratuito para repositórios públicos e privados ilimitados."
-
       - title: "Codeac"
         url: "https://www.codeac.io/infrastructure-as-code.html?ref=free-for-dev"
         description: "Automated Infrastructure as Code review tool for DevOps. Integrates with major platforms and supports multiple languages."
         pt: "Ferramenta automatizada de revisão de Infrastructure as Code para DevOps. Integra-se com plataformas principais e suporta várias linguagens."
-
       - title: "CodeBeat"
         url: "https://codebeat.co"
         description: "Automated Code Review Platform for many languages. Free forever for public repositories with Slack and email integration."
         pt: "Plataforma de revisão de código automatizada para várias linguagens. Gratuito para sempre para repositórios públicos com integração Slack e e-mail."
-
       - title: "Code Climate"
         url: "https://codeclimate.com/"
         description: "Automated code review, free for Open Source projects and private repos for up to 4 collaborators."
         pt: "Revisão de código automatizada, gratuita para projetos de código aberto e repositórios privados para até 4 colaboradores."
-
       - title: "Codecov"
         url: "https://codecov.io/"
         description: "Code coverage tool, free for Open Source and one private repository."
         pt: "Ferramenta de cobertura de código, gratuita para código aberto e um repositório privado."
-
       - title: "CodeFactor"
         url: "https://www.codefactor.io"
         description: "Automated Code Review for Git with unlimited users, public repositories, and one private repo for free."
         pt: "Revisão de código automatizada para Git com usuários ilimitados, repositórios públicos e um repositório privado gratuitamente."
-
       - title: "CodeScene"
         url: "https://codescene.io/"
         description: "Visualizes organizational factors and prioritizes technical debt. Free for Open Source."
         pt: "Visualiza fatores organizacionais e prioriza dívida técnica. Gratuito para código aberto."
-
       - title: "CodSpeed"
         url: "https://codspeed.io"
         description: "Automates performance tracking in CI pipelines to catch regressions before deployment. Free forever for Open Source projects."
         pt: "Automatiza o rastreamento de desempenho em pipelines CI para identificar regressões antes da implantação. Gratuito para sempre para projetos de código aberto."
-
       - title: "Coveralls"
         url: "https://coveralls.io/"
         description: "Displays test coverage reports. Free for Open Source."
         pt: "Exibe relatórios de cobertura de testes. Gratuito para código aberto."
-
       - title: "Dareboost"
         url: "https://dareboost.com"
         description: "Provides 5 free analysis reports monthly for web performance, accessibility, and security."
         pt: "Fornece 5 relatórios de análise gratuitos por mês para desempenho web, acessibilidade e segurança."
-
       - title: "DeepCode"
         url: "https://www.deepcode.ai"
         description: "AI-powered tool to detect bugs and vulnerabilities in multiple languages. Free for open source and private repos."
         pt: "Ferramenta com IA para detectar bugs e vulnerabilidades em várias linguagens. Gratuita para repositórios de código aberto e privados."
-
       - title: "DeepScan"
         url: "https://deepscan.io"
         description: "Advanced static analysis for JavaScript to find runtime errors. Free for Open Source."
         pt: "Análise estática avançada para JavaScript para encontrar erros em tempo de execução. Gratuito para código aberto."
-
       - title: "DeepSource"
         url: "https://deepsource.io/"
         description: "Continuous analysis of source code changes for security, performance, and style issues. Free for Open Source."
         pt: "Análise contínua de alterações no código-fonte para questões de segurança, desempenho e estilo. Gratuito para código aberto."
-
       - title: "DiffText"
         url: "https://difftext.com"
         description: "Instantly find differences between two blocks of code. Completely free to use."
         pt: "Encontre instantaneamente diferenças entre dois blocos de código. Totalmente gratuito."
-
       - title: "EverSQL"
         url: "https://www.eversql.com/"
         description: "Platform for database and SQL query optimization."
         pt: "Plataforma para otimização de banco de dados e consultas SQL."
-
       - title: "GerritHub"
         url: "https://review.gerrithub.io/"
         description: "Code review for GitHub repositories. Free for open-source projects."
         pt: "Revisão de código para repositórios do GitHub. Gratuito para projetos de código aberto."
-
       - title: "GoCover"
         url: "https://gocover.io/"
         description: "Code coverage for Go packages."
         pt: "Cobertura de código para pacotes Go."
-
       - title: "GoReportCard"
         url: "https://goreportcard.com/"
         description: "Code quality tool for Go projects. Free for Open Source."
         pt: "Ferramenta de qualidade de código para projetos Go. Gratuito para código aberto."
-
       - title: "GTmetrix"
         url: "https://gtmetrix.com/"
         description: "Provides detailed reports and recommendations for optimizing website performance."
         pt: "Fornece relatórios detalhados e recomendações para otimizar o desempenho do site."
-
       - title: "Holistic"
         url: "https://holistic.dev/"
         description: "Static code analyzer for optimizing PostgreSQL with performance, security, and architecture issue detection."
         pt: "Analisador estático de código para otimizar PostgreSQL com detecção de problemas de desempenho, segurança e arquitetura."
-
       - title: "HoundCI"
         url: "https://houndci.com/"
         description: "Comments on GitHub commits about code quality. Free for Open Source."
         pt: "Comenta sobre qualidade de código em commits no GitHub. Gratuito para código aberto."
-
       - title: "Moderne"
         url: "https://app.moderne.io"
         description: "Automatic source code refactoring, migrations, and remediation at scale. Free for Open Source."
         pt: "Refatoração automática de código-fonte, migrações e remediações em escala. Gratuito para código aberto."
-
       - title: "Reviewable"
         url: "https://reviewable.io/"
         description: "Code review tool for GitHub repositories. Free for public or personal repos."
         pt: "Ferramenta de revisão de código para repositórios do GitHub. Gratuito para repositórios públicos ou pessoais."
-
       - title: "Parsers"
         url: "https://parsers.dev/"
         description: "AST parsers and intermediate representation compilers as a service."
         pt: "Analisadores AST e compiladores de representação intermediária como serviço."
-
       - title: "Coverity Scan"
         url: "https://scan.coverity.com/"
         description: "Static code analysis for Java, C/C++, C#, and JavaScript. Free for Open Source."
         pt: "Análise estática de código para Java, C/C++, C# e JavaScript. Gratuito para código aberto."
-
       - title: "Scrutinizer CI"
         url: "https://scrutinizer-ci.com/"
         description: "Continuous inspection platform for code quality. Free for Open Source."
         pt: "Plataforma de inspeção contínua para qualidade de código. Gratuito para código aberto."
-
       - title: "SemanticDiff"
         url: "https://app.semanticdiff.com/"
         description: "Programming language-aware diff for GitHub pull requests and commits. Free for public repositories."
         pt: "Diff consciente de linguagem de programação para pull requests e commits do GitHub. Gratuito para repositórios públicos."
-
       - title: "Shields.io"
         url: "https://shields.io"
         description: "Create quality metadata badges for open-source projects."
         pt: "Crie badges de metadados de qualidade para projetos de código aberto."
-
       - title: "SonarCloud"
         url: "https://sonarcloud.io"
         description: "Automated source code analysis for multiple languages. Free for Open Source."
         pt: "Análise automatizada de código-fonte para várias linguagens. Gratuito para código aberto."
-
       - title: "SourceLevel"
         url: "https://sourcelevel.io/"
         description: "Automated Code Review and Team Analytics. Free for Open Source and up to 5 collaborators."
         pt: "Revisão de Código Automatizada e Análise de Equipe. Gratuito para Código Aberto e até 5 colaboradores."
-
       - title: "WebCEO"
         url: "https://www.webceo.com/"
         description: "SEO tools with code verification and support for different devices."
         pt: "Ferramentas de SEO com verificação de código e suporte para diferentes dispositivos."
-
       - title: "Zoompf"
         url: "https://zoompf.com/"
         description: "Analyze and improve website performance with detailed suggestions."
