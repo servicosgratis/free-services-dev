@@ -5,6 +5,12 @@ enableEmoji = true
 enableGitInfo = true # N.B. .GitInfo does not currently function with git submodule content directories
 defaultContentLanguage = 'en'
 
+googleAnalytics = 'G-XYMC717S8K'
+
+[services]
+  [services.googleAnalytics]
+    id = 'G-XYMC717S8K'
+
 [module]
     [[module.imports]]
         path = "sg"
@@ -51,7 +57,7 @@ defaultContentLanguage = 'en'
   mono_font       = "Fira Code"
 
   [params.social]
-    github = "servicosgratis"
+    github = "servicosgratis/free-services-dev"
     # twitter = ""
     # instagram = ""
     # rss = true
