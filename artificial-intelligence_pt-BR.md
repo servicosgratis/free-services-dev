@@ -1,3 +1,15 @@
+## Models
+  * [OpenAI API](https://openai.com/api/) — Oferece acesso aos modelos GPT-3 e GPT-4 para diversas tarefas de linguagem natural, além do Codex para traduzir linguagem natural em código.
+  * [Gopher](https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval) — Um modelo de linguagem com 280 bilhões de parâmetros desenvolvido pelo DeepMind.
+  * [OPT](https://huggingface.co/facebook/opt-350m) — Transformadores pré-treinados apenas com decodificador (OPT) da Facebook.
+  * [Bloom](https://huggingface.co/docs/transformers/model_doc/bloom) — BLOOM, da Hugging Face, é um modelo de linguagem grande treinado em 46 idiomas diferentes e 13 linguagens de programação.
+  * [LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) — Um modelo de linguagem grande com 65 bilhões de parâmetros desenvolvido pela Meta.
+  * [Llama 2](https://ai.meta.com/llama/) — A próxima geração do modelo de linguagem grande open-source da Meta.
+  * [Claude](https://claude.ai/) — Converse com Claude, um assistente de IA desenvolvido pela Anthropic.
+  * [Vicuna-13B](https://lmsys.org/blog/2023-03-30-vicuna/) — Um chatbot open-source ajustado a partir do LLaMA com conversas compartilhadas por usuários coletadas do ShareGPT.
+  * [Mixtral 8x7B](https://mistral.ai/news/mixtral-of-experts/) — Um modelo de mistura esparsa de especialistas de alta qualidade com pesos abertos.
+  * [Grok](https://grok.x.ai/) — Um LLM da xAI com [código aberto](https://github.com/xai-org/grok-1) e pesos abertos.
+
 ## Code Generation
   * [Appinvento](https://appinvento.io/) — Construtor de aplicativos sem código gratuito com acesso completo ao código backend gerado automaticamente, APIs e rotas ilimitadas. O plano gratuito inclui 3 projetos, 5 tabelas e um complemento do Google.
   * [Cody AI](https://sourcegraph.com/cody) — Assistente de codificação com IA, suporte a múltiplos LLMs, IDEs e linguagens de programação. Plano gratuito inclui 20 mensagens de chat e 500 autocompletes por mês.

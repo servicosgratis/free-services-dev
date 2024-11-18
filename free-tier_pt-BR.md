@@ -309,6 +309,72 @@
   * [Patr Cloud](https://patr.cloud/) — Uma plataforma em nuvem fácil de usar, entre seus serviços pagos oferece hospedagem de três sites estáticos gratuitamente.
   * [Serv00](https://serv00.com/) — 3 GB de hospedagem gratuita com backups diários (7 dias). Suporte: tarefas Crontab, acesso SSH, repositórios (GIT, SVN e Mercurial), suporte a MySQL, PostgreSQL, MongoDB, PHP, Node.js, Python, Ruby, Java, Perl, TCL/TK, Lua, Erlang, Rust, Pascal, C, C++, D, R e muitos outros.
 
+## Email Services
+  * [10 Minute Mail](https://10minutemail.com) — E-mail temporário gratuito para fins de teste.
+  * [AhaSend](https://ahasend.com) — Serviço de e-mails transacionais com domínios ilimitados, membros da equipe, webhooks e rotas de mensagens. Gratuito para até 1.000 e-mails por mês.
+  * [AnonAddy](https://anonaddy.com) — Encaminhamento de e-mail anônimo de código aberto com aliases de e-mail ilimitados gratuitamente.
+  * [Antideo](https://www.antideo.com) — API de validação de e-mail, IP e número de telefone com 10 solicitações gratuitas por hora. Não requer cartão de crédito.
+  * [Brevo](https://www.brevo.com/) — Envie até 9.000 e-mails por mês com limite diário de 300 e-mails.
+  * [Bump](https://bump.email/) — Gratuito para até 10 endereços de e-mail Bump e um domínio personalizado.
+  * [Burner Mail](https://burnermail.io/) — Gratuito para 5 endereços de e-mail descartáveis, uma caixa de correio e um histórico de 7 dias.
+  * [Buttondown](https://buttondown.email/) — Serviço de boletins informativos gratuito para até 100 assinantes.
+  * [CloudMailin](https://www.cloudmailin.com/) — Gerencia e-mails recebidos via HTTP POST e e-mails transacionais de saída. Gratuito para até 10.000 e-mails por mês.
+  * [Contact.do](https://contact.do/) — Simplifique formulários de contato em um único link, semelhante ao bit.ly para formulários de contato.
+  * [DebugMail](https://debugmail.io/) — Um servidor de e-mail de teste fácil de usar para desenvolvedores.
+  * [DNS Exit](https://dnsexit.com/) — Oferece até 2 endereços de e-mail em seu domínio com 100 MB de espaço de armazenamento. Inclui suporte a IMAP, POP3, SMTP, SPF/DKIM.
+  * [EmailLabs](https://emaillabs.io/en) — Envie até 9.000 e-mails por mês com limite diário de 300 e-mails.
+  * [EmailOctopus](https://emailoctopus.com) — Gratuito para até 2.500 assinantes e 10.000 e-mails por mês.
+  * [EmailJS](https://www.emailjs.com/) — Envio de e-mails do lado do cliente sem expor credenciais. O plano gratuito inclui 200 solicitações por mês e dois modelos de e-mail.
+  * [EtherealMail](https://ethereal.email) — Serviço SMTP falso para testar a funcionalidade de e-mail sem entrega. Ideal para usuários do Nodemailer.
+  * [Temp-Mail.org](https://temp-mail.org/en/) — Gerador gratuito de e-mail temporário/descartável com atualização automática ao recarregar.
+  * [ForwardEmail](https://forwardemail.net) — Encaminhamento de e-mails gratuito para domínios personalizados. Endereços ilimitados, exceto para alguns TLDs.
+  * [Imitate Email](https://imitate.email) — Servidor de e-mail sandbox para testar funcionalidades de e-mail em ambientes de desenvolvimento, QA e CI/CD. Contas gratuitas permitem 15 e-mails por dia para sempre.
+  * [ImprovMX](https://improvmx.com) — Serviço gratuito de encaminhamento de e-mails para domínios personalizados.
+  * [EForw](https://www.eforw.com) — Serviço gratuito de encaminhamento de e-mails para um domínio. Envie e receba e-mails usando seu domínio.
+  * [Inboxes App](https://inboxesapp.com) — Crie até 3 e-mails temporários diariamente, exclua-os quando terminar e gerencie-os por uma extensão do Chrome.
+  * [InboxKitten](https://inboxkitten.com/) — Caixa de entrada de e-mail temporária/descartável gratuita com exclusão automática dos e-mails após 3 dias. Código aberto e autohospedável.
+  * [Mail-tester](https://www.mail-tester.com) — Teste as configurações DNS/SPF/DKIM/DMARC para entregabilidade de e-mail. O plano gratuito inclui 20 testes por mês.
+  * [DKIM Validator](https://dkimvalidator.com/) — Serviço gratuito para verificar configurações de DNS/SPF/DKIM/DMARC de e-mails.
+  * [Mailcatcher](https://mailcatcher.me/) — Captura e-mails para teste e os disponibiliza por meio de uma interface web.
+  * [Mailcheck.ai](https://www.mailcheck.ai/) — Impede que usuários se cadastrem com endereços de e-mail temporários. O plano gratuito inclui 120 solicitações por hora.
+  * [Mailchimp](https://mailchimp.com/) — Serviço de marketing por e-mail com plano gratuito para 500 assinantes e 1.000 e-mails por mês.
+  * [Maildroppa](https://maildroppa.com) — Plano gratuito para até 100 assinantes com e-mails ilimitados e automações.
+  * [MailerLite](https://www.mailerlite.com) — Plataforma de marketing por e-mail com plano gratuito para 1.000 assinantes e 12.000 e-mails por mês.
+  * [MailerSend](https://www.mailersend.com) — Serviço de e-mails transacionais com 3.000 e-mails/mês no plano gratuito.
+  * [Mailinator](https://www.mailinator.com/) — Sistema de e-mail público gratuito onde você pode usar qualquer caixa de entrada para testes.
+  * [Mailjet](https://www.mailjet.com/) — Plano gratuito inclui 6.000 e-mails/mês com limite diário de envio de 200 e-mails.
+  * [Mailnesia](https://mailnesia.com) — E-mail temporário/descartável gratuito com registro automático de links visitados.
+  * [Mailsac](https://mailsac.com) — API gratuita para testes de e-mail temporários, hospedagem de e-mails públicos e recursos de e-mail para webhook. Limite de 1.500 solicitações de API por mês.
+  * [Mailtrap](https://mailtrap.io/) — Servidor SMTP falso para desenvolvimento. O plano gratuito inclui uma caixa de entrada e 100 mensagens por mês.
+  * [Mail7](https://www.mail7.io/) — Endereços de e-mail temporários gratuitos para desenvolvedores de QA. Crie endereços de e-mail instantaneamente por meio da Interface Web ou API.
+  * [Momentary Email](https://www.momentaryemail.com/) — Endereços de e-mail temporários gratuitos com opção de leitura de e-mails recebidos via site ou feed RSS.
+  * [Mutant Mail](https://www.mutantmail.com/) — Plano gratuito inclui 10 IDs de e-mail, 1 domínio e 1 caixa de entrada para gerenciar múltiplos IDs de e-mail em uma única caixa.
+  * [Outlook](https://outlook.live.com/owa/) — Serviço de e-mail pessoal gratuito com integração de calendário da Microsoft.
+  * [Parsio](https://parsio.io) — Parser de e-mails gratuito para extrair dados de e-mails e encaminhá-los para seu servidor.
+  * [Pepipost](https://pepipost.com) — Plano gratuito oferece 30k e-mails no primeiro mês e 100 e-mails/dia a partir daí.
+  * [Plunk](https://useplunk.com) — Plano gratuito oferece 3.000 e-mails por mês para entrega de e-mails transacionais.
+  * [Postmark](https://postmarkapp.com/) — API de e-mails transacionais com 100 e-mails gratuitos por mês e resumos semanais de DMARC ilimitados.
+  * [Proton Mail](https://proton.me/mail) — Serviço de e-mail seguro gratuito com criptografia ponta-a-ponta e 1GB de armazenamento.
+  * [Queuemail](https://queuemail.dev) — API de entrega confiável de e-mails. Plano gratuito inclui 10.000 e-mails por mês e recursos avançados como webhooks e registro de logs.
+  * [QuickEmailVerification](https://quickemailverification.com) — Serviço gratuito de verificação de e-mails com 100 verificações diárias e APIs adicionais para consulta DNS, detecção de DEA e validação SPF.
+  * [Resend](https://resend.com) — API de e-mails transacionais oferecendo 3.000 e-mails/mês e 100 e-mails/dia gratuitamente.
+  * [Sender](https://www.sender.net) — Plano gratuito suporta até 15.000 e-mails/mês e 2.500 assinantes.
+  * [SendGrid](https://sendgrid.com/) — Serviço de entrega de e-mails oferecendo 100 e-mails/dia e até 2.000 contatos gratuitamente.
+  * [Sendpulse](https://sendpulse.com) — Plataforma gratuita de marketing por e-mail para até 500 assinantes e 15.000 e-mails/mês.
+  * [SimpleLogin](https://simplelogin.io/) — Solução de alias de e-mail e encaminhamento de código aberto. Plano gratuito inclui 5 aliases e largura de banda ilimitada.
+  * [Substack](https://substack.com) — Serviço gratuito de newsletters ilimitado, com opções de monetização por assinaturas pagas.
+  * [Sweego](https://www.sweego.io/) — API europeia de e-mails transacionais para desenvolvedores com 500 e-mails/dia gratuitos.
+  * [Takeout](https://takeout.bysourfruit.com) — Serviço gratuito de e-mails transacionais oferecendo 500 e-mails/mês.
+  * [Temp-Mail.io](https://temp-mail.io) — Serviço gratuito de e-mails descartáveis com suporte a múltiplos endereços e opções de encaminhamento.
+  * [TinyLetter](https://tinyletter.com/) — Serviço simples de newsletters por e-mail, gratuito para até 5.000 assinantes.
+  * [Touchlead](https://touchlead.app) — Ferramenta de automação de marketing multifuncional com gerenciamento de leads, criador de formulários e automação. Gratuito para um número limitado de leads e automações.
+  * [Trashmail](https://www.trashmail.com) — Endereços de e-mail descartáveis gratuitos com encaminhamento e expiração automática.
+  * [Tutanota](https://tutanota.com/) — Provedor de e-mail seguro gratuito com criptografia ponta-a-ponta integrada. Inclui 1GB de armazenamento e sem anúncios ou rastreamento.
+  * [Verifalia](https://verifalia.com/email-verification-api) — API de verificação de e-mails em tempo real com confirmação de caixa postal e detecção de e-mails descartáveis. 25 verificações gratuitas por dia.
+  * [Verimail](https://verimail.io/) — Serviço de verificação de e-mails em massa e via API com 100 verificações gratuitas por mês.
+  * [Zoho](https://www.zoho.com) — Oferece uma suíte de serviços gratuitos, incluindo hospedagem de e-mails e ferramentas de colaboração. Planos gratuitos variam por serviço.
+  * [Maileroo](https://maileroo.com) — Relay SMTP e API de e-mail para desenvolvedores. Plano gratuito inclui 5.000 e-mails/mês, domínios ilimitados, monitoramento de listas negras, testador de e-mails e mais.
+
 ## Messaging and Streaming
   * [Ably](https://www.ably.com/) — Serviço de mensagens em tempo real com recursos como presença, persistência e entrega garantida. O plano gratuito inclui 3 milhões de mensagens por mês, 100 conexões simultâneas e 100 canais simultâneos.
   * [CloudAMQP](https://www.cloudamqp.com/) — RabbitMQ como serviço. O plano Little Lemur inclui 1 milhão de mensagens/mês, 20 conexões simultâneas, 100 filas e 10.000 mensagens em fila.

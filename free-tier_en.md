@@ -309,6 +309,72 @@
   * [Patr Cloud](https://patr.cloud/) — An easy-to-use cloud platform, among its paid services it offers to host three static sites for free.
   * [Serv00](https://serv00.com/) — 3 GB of free web hosting with daily backups (7 days). Support: Crontab jobs, SSH access, repositories (GIT, SVN, and Mercurial), support: MySQL, PostgreSQL, MongoDB, PHP, Node.js, Python, Ruby, Java, Perl, TCL/TK, Lua, Erlang, Rust, Pascal, C, C++, D, R, and many more.
 
+## Email Services
+  * [10 Minute Mail](https://10minutemail.com) — Free, temporary email for testing purposes.
+  * [AhaSend](https://ahasend.com) — Transactional email service with unlimited domains, team members, webhooks, and message routes. Free for up to 1,000 emails per month.
+  * [AnonAddy](https://anonaddy.com) — Open-source anonymous email forwarding with unlimited email aliases for free.
+  * [Antideo](https://www.antideo.com) — Email, IP, and phone number validation API with 10 free requests per hour. No credit card required.
+  * [Brevo](https://www.brevo.com/) — Send up to 9,000 emails per month with a daily limit of 300 emails.
+  * [Bump](https://bump.email/) — Free for up to 10 Bump email addresses and one custom domain.
+  * [Burner Mail](https://burnermail.io/) — Free for 5 burner email addresses, one mailbox, and a 7-day mailbox history.
+  * [Buttondown](https://buttondown.email/) — Newsletter service free for up to 100 subscribers.
+  * [CloudMailin](https://www.cloudmailin.com/) — Handles incoming email via HTTP POST and transactional outbound email. Free for up to 10,000 emails per month.
+  * [Contact.do](https://contact.do/) — Simplify contact forms into a single link, similar to bit.ly for contact forms.
+  * [DebugMail](https://debugmail.io/) — An easy-to-use testing mail server for developers.
+  * [DNS Exit](https://dnsexit.com/) — Provides up to 2 email addresses under your domain with 100MB of storage space. Includes IMAP, POP3, SMTP, SPF/DKIM support.
+  * [EmailLabs](https://emaillabs.io/en) — Send up to 9,000 emails per month with a daily limit of 300 emails.
+  * [EmailOctopus](https://emailoctopus.com) — Free for up to 2,500 subscribers and 10,000 emails per month.
+  * [EmailJS](https://www.emailjs.com/) — Client-side email sending without exposing credentials. Free tier includes 200 requests per month and two email templates.
+  * [EtherealMail](https://ethereal.email) — Fake SMTP service for testing email functionality without delivery. Ideal for Nodemailer users.
+  * [Temp-Mail.org](https://temp-mail.org/en/) — Free temporary/disposable email generator with auto-refresh on reload.
+  * [ForwardEmail](https://forwardemail.net) — Free email forwarding for custom domains. Unlimited addresses unless using certain TLDs.
+  * [Imitate Email](https://imitate.email) — Sandbox Email Server for testing email functionality across build/QA and CI/CD environments. Free accounts allow 15 emails a day forever.
+  * [ImprovMX](https://improvmx.com) — Free email forwarding service for custom domains.
+  * [EForw](https://www.eforw.com) — Free email forwarding service for one domain. Send and receive emails using your domain.
+  * [Inboxes App](https://inboxesapp.com) — Create up to 3 temporary emails daily, delete them when done, and manage from a Chrome extension.
+  * [InboxKitten](https://inboxkitten.com/) — Free temporary/disposable email inbox with emails auto-deleted after 3 days. Open-source and self-hostable.
+  * [Mail-tester](https://www.mail-tester.com) — Test DNS/SPF/DKIM/DMARC configurations for email deliverability. Free tier includes 20 tests per month.
+  * [DKIM Validator](https://dkimvalidator.com/) — Free service to verify email DNS/SPF/DKIM/DMARC settings.
+  * [Mailcatcher](https://mailcatcher.me/) — Captures mail for testing and serves it through a web interface.
+  * [Mailcheck.ai](https://www.mailcheck.ai/) — Blocks users from signing up with temporary email addresses. Free tier includes 120 requests/hour.
+  * [Mailchimp](https://mailchimp.com/) — Email marketing service with a free plan for 500 subscribers and 1,000 emails per month.
+  * [Maildroppa](https://maildroppa.com) — Free plan for up to 100 subscribers with unlimited emails and automations.
+  * [MailerLite](https://www.mailerlite.com) — Email marketing platform with a free plan for 1,000 subscribers and 12,000 emails per month.
+  * [MailerSend](https://www.mailersend.com) — Transactional email service with 3,000 emails/month in the free tier.
+  * [Mailinator](https://www.mailinator.com/) — Free public email system where you can use any inbox you want for testing.
+  * [Mailjet](https://www.mailjet.com/) — Free plan includes 6,000 emails/month with a daily sending limit of 200 emails.
+  * [Mailnesia](https://mailnesia.com) — Free temporary/disposable email with auto-visit registration links.
+  * [Mailsac](https://mailsac.com) — Free API for temporary email testing, hosting public emails, and email-to-webhook features. Limit of 1,500 monthly API requests.
+  * [Mailtrap](https://mailtrap.io/) — Fake SMTP server for development. Free plan includes one inbox and 100 messages per month.
+  * [Mail7](https://www.mail7.io/) — Free temporary email addresses for QA developers. Instantly create email addresses via Web Interface or API.
+  * [Momentary Email](https://www.momentaryemail.com/) — Free temporary email addresses with the option to read incoming emails via website or RSS feed.
+  * [Mutant Mail](https://www.mutantmail.com/) — Free tier includes 10 email IDs, 1 domain, and 1 mailbox for managing multiple email IDs in a single inbox.
+  * [Outlook](https://outlook.live.com/owa/) — Free personal email service with calendar integration from Microsoft.
+  * [Parsio](https://parsio.io) — Free email parser to extract data from emails and forward it to your server.
+  * [Pepipost](https://pepipost.com) — Free tier offers 30k emails in the first month and 100 emails/day thereafter.
+  * [Plunk](https://useplunk.com) — Free plan provides 3,000 emails per month for transactional email delivery.
+  * [Postmark](https://postmarkapp.com/) — Transactional email API with 100 free emails per month and unlimited DMARC weekly digests.
+  * [Proton Mail](https://proton.me/mail) — Free secure email account service with end-to-end encryption and 1GB of storage.
+  * [Queuemail](https://queuemail.dev) — Reliable email delivery API. Free plan includes 10,000 emails per month and advanced features like webhooks and logging.
+  * [QuickEmailVerification](https://quickemailverification.com) — Free email verification service with 100 daily verifications and additional APIs for DNS lookup, DEA detection, and SPF validation.
+  * [Resend](https://resend.com) — Transactional email API offering 3,000 emails/month and 100 emails/day for free.
+  * [Sender](https://www.sender.net) — Free plan supports up to 15,000 emails/month and 2,500 subscribers.
+  * [SendGrid](https://sendgrid.com/) — Email delivery service offering 100 emails/day and up to 2,000 contacts for free.
+  * [Sendpulse](https://sendpulse.com) — Free email marketing platform for up to 500 subscribers and 15,000 emails/month.
+  * [SimpleLogin](https://simplelogin.io/) — Open-source email alias and forwarding solution. Free tier includes 5 aliases and unlimited bandwidth.
+  * [Substack](https://substack.com) — Unlimited free newsletter service, with monetization options for paid subscriptions.
+  * [Sweego](https://www.sweego.io/) — European transactional email API for developers with 500 free emails/day.
+  * [Takeout](https://takeout.bysourfruit.com) — Free transactional email service offering 500 emails/month.
+  * [Temp-Mail.io](https://temp-mail.io) — Free disposable email service supporting multiple addresses and forwarding options.
+  * [TinyLetter](https://tinyletter.com/) — Simple email newsletter service, free for up to 5,000 subscribers.
+  * [Touchlead](https://touchlead.app) — Multi-purpose marketing automation tool with lead management, form builder, and automation. Free for a limited number of leads and automations.
+  * [Trashmail](https://www.trashmail.com) — Free disposable email addresses with forwarding and automatic address expiration.
+  * [Tutanota](https://tutanota.com/) — Free secure email service provider with built-in end-to-end encryption. Includes 1GB of storage and no ads or tracking.
+  * [Verifalia](https://verifalia.com/email-verification-api) — Real-time email verification API with mailbox confirmation and disposable email detection. 25 free verifications/day.
+  * [Verimail](https://verimail.io/) — Bulk and API email verification service with 100 free verifications/month.
+  * [Zoho](https://www.zoho.com) — Provides a suite of free services including email hosting and collaboration tools. Free plans vary by service.
+  * [Maileroo](https://maileroo.com) — SMTP relay and email API for developers. Free plan includes 5,000 emails/month, unlimited domains, blacklist monitoring, mail tester, and more.
+
 ## Messaging and Streaming
   * [Ably](https://www.ably.com/) — Realtime messaging service with features like presence, persistence, and guaranteed delivery. Free plan includes 3 million messages per month, 100 peak connections, and 100 peak channels.
   * [CloudAMQP](https://www.cloudamqp.com/) — RabbitMQ as a Service. Little Lemur plan includes 1 million messages/month, 20 concurrent connections, 100 queues, and 10,000 queued messages.

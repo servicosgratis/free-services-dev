@@ -1,3 +1,15 @@
+## Models
+  * [OpenAI API](https://openai.com/api/) — Provides access to GPT-3 and GPT-4 models for various natural language tasks, as well as Codex for translating natural language into code.
+  * [Gopher](https://www.deepmind.com/blog/language-modelling-at-scale-gopher-ethical-considerations-and-retrieval) — A 280 billion parameter language model by DeepMind.
+  * [OPT](https://huggingface.co/facebook/opt-350m) — Open Pretrained Transformers (OPT) by Facebook are decoder-only pre-trained transformers.
+  * [Bloom](https://huggingface.co/docs/transformers/model_doc/bloom) — BLOOM by Hugging Face is a large language model trained on 46 different languages and 13 programming languages.
+  * [LLaMA](https://ai.facebook.com/blog/large-language-model-llama-meta-ai/) — A foundational, 65-billion-parameter large language model developed by Meta.
+  * [Llama 2](https://ai.meta.com/llama/) — The next generation of Meta's open-source large language model.
+  * [Claude](https://claude.ai/) — Talk to Claude, an AI assistant created by Anthropic.
+  * [Vicuna-13B](https://lmsys.org/blog/2023-03-30-vicuna/) — An open-source chatbot fine-tuned from LLaMA on user-shared conversations collected from ShareGPT.
+  * [Mixtral 8x7B](https://mistral.ai/news/mixtral-of-experts/) — A high-quality sparse mixture of experts model with open weights.
+  * [Grok](https://grok.x.ai/) — An LLM by xAI with [open source](https://github.com/xai-org/grok-1) and open weights.
+
 ## Code Generation
   * [Appinvento](https://appinvento.io/) — Free no-code app builder with full access to automatically generated backend code, unlimited APIs, and routes. The free plan includes 3 projects, 5 tables, and a Google add-on.
   * [Cody AI](https://sourcegraph.com/cody) — AI-powered coding assistant with support for multiple LLMs, IDEs, and programming languages. Free plan includes 20 chat messages and 500 autocompletions per month.
