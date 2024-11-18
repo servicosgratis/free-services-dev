@@ -36,5 +36,7 @@ jobs:
         git config --global user.email "github-actions[bot]@users.noreply.github.com"
         git add *.md
         git commit -m "Update Markdown files from YAML"
-        git tag no-action
-        git push origin HEAD --tags
+        git tag -f no-action
+        git push origin HEAD
+        git push origin -f no-action
+        
