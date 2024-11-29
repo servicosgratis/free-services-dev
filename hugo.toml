@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://www.servicosgratis.com.br/"
 languageCode = "en"
 contentDir = "content"
 enableEmoji = true
