@@ -757,6 +757,7 @@
   * [Preset Cloud](https://preset.io/) — Hosted Apache Superset service. Free for up to 5 users with unlimited dashboards and charts.
   * [PromptLeo](https://promptleo.com/) — Platform for creating and managing AI prompt engineering. Free plan includes one prompt formation and 30 generations per month.
   * [PromptLoop](https://www.promptloop.com/) — Use AI in spreadsheets to analyze and transform text. Free for the first 2,000 credits per month.
+  * [Pythonium](https://pythonium.net/mockapy) — Create a mock REST API from a JSON object with customizable responses using a Python script.
   * [Crawlbase](https://crawlbase.com/) — Scrape websites without proxies or infrastructure. Free for the first 1,000 API calls.
   * [Supportivekoala](https://supportivekoala.com/) — Auto-generate images via templates. Free plan allows up to 100 images per week.
   * [QuickMocker](https://quickmocker.com/) — Create online fake API endpoints with features like RegExp URL paths and proxy requests. Free plan includes 10 endpoints and 100 requests per day.
