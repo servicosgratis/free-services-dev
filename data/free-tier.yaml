@@ -4233,6 +4233,10 @@ items:
         url: "https://locationiq.com/"
         description: "Geocoding, maps, and routing APIs. 5,000 requests/day for free."
         pt: "APIs de geocodificação, mapas e roteamento. 5 mil solicitações/dia gratuitas."
+      - title: "LatLng"
+        url: "https://www.latlng.work/"
+        description: "OpenStreetMap-powered geocoding, reverse geocoding, places, autocomplete, static maps, and MapLibre-compatible vector tiles. Free tier includes 3,000 geocoding requests/day."
+        pt: "Geocodificação, geocodificação reversa, locais, autocomplete, mapas estáticos e tiles vetoriais compatíveis com MapLibre, com dados do OpenStreetMap. O plano gratuito inclui 3 mil solicitações de geocodificação por dia."
       - title: "Mapbox"
         url: "https://www.mapbox.com/"
         description: "Maps, geospatial services, and SDKs for displaying map data."
@@ -5881,4 +5885,3 @@ items:
         url: "https://rustdesk.com/"
         description: "Open-source virtual/remote desktop infrastructure for everyone."
         pt: "Infraestrutura de desktop remoto/virtual de código aberto para todos."
-
