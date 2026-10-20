@@ -3594,6 +3594,10 @@ items:
 
   - title: "Monitoring"
     sections:
+      - title: "MonitorFlare"
+        url: "https://monitorflare.csr.plus/"
+        description: "Self-hosted uptime monitoring and public status page running entirely on the Cloudflare free tier. Monitors HTTP, DNS, TCP ports, SSL expiry with 9 notification channels and 9 languages. One-click deploy, MIT licensed."
+        pt: "Monitoramento de uptime auto-hospedado e página de status pública rodando inteiramente na camada gratuita da Cloudflare. Monitora HTTP, DNS, portas TCP e expiração de SSL com 9 canais de notificação e 9 idiomas. Deploy com um clique, licença MIT."
       - title: "Pingmeter"
         url: "https://pingmeter.com/"
         description: "5 uptime monitors with 10-minute interval. Monitor SSH, HTTP, HTTPS, and any custom TCP ports."
