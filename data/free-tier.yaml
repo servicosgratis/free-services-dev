@@ -5211,6 +5211,11 @@ items:
         description: "Free tool for testing SSL/TLS server configuration, certificates, and chains. Supports HTTPS and other protocols."
         pt: "Ferramenta gratuita para testar configuração de servidores SSL/TLS, certificados e cadeias. Suporta HTTPS e outros protocolos."
 
+      - title: "CSR.plus"
+        url: "https://csr.plus"
+        description: "Free online CSR and private key generator with an API. Generates certificate signing requests with RSA, ECDSA, and Ed25519 keys without installing OpenSSL."
+        pt: "Gerador gratuito de CSR e chave privada online com API. Gera solicitações de assinatura de certificado com chaves RSA, ECDSA e Ed25519 sem instalar OpenSSL."
+
       - title: "Dotenv"
         url: "https://dotenv.org/"
         description: "Securely sync your .env files across teams. Free for up to 3 teammates."
