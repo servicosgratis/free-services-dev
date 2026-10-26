@@ -442,6 +442,10 @@ items:
         url: "https://zoompf.com/"
         description: "Analyze and improve website performance with detailed suggestions."
         pt: "Analise e melhore o desempenho do site com sugestões detalhadas."
+      - title: "XML Comparator"
+        url: "https://www.xmlcomparator.xyz/"
+        description: "A tool to compare XML files, highlighting differences in an easy-to-read interface."
+        pt: "Uma ferramenta para comparar arquivos XML, destacando as diferenças de forma fácil de ler."
 
   - title: "Low-code Platform"
     sections:
